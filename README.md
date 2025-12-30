@@ -5,11 +5,6 @@ Progress Tracker for completing **DSA with Java** playlist (69 videos).
 ---
 
 ## 📊 Progress
-<!-- Progress Bar -->
-<div>
-  <progress id="progressBar" value="0" max="69" style="width: 100%; height: 20px;"></progress>
-  <p><b><span id="percent">0</span>% Completed</b></p>
-</div>
 
 ---
 
@@ -89,20 +84,4 @@ Progress Tracker for completing **DSA with Java** playlist (69 videos).
 
 ---
 
-## ⚙️ Auto Progress Script
-> Works in **GitHub Pages / local markdown preview**
 
-```html
-<script>
-  const checkboxes = document.querySelectorAll("input[type='checkbox']");
-  const progressBar = document.getElementById("progressBar");
-  const percent = document.getElementById("percent");
-
-  function updateProgress() {
-    const checked = document.querySelectorAll("input[type='checkbox']:checked").length;
-    progressBar.value = checked;
-    percent.innerText = Math.round((checked / 69) * 100);
-  }
-
-  checkboxes.forEach(cb => cb.addEventListener("change", updateProgress));
-</script>
