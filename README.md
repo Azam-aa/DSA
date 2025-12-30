@@ -5,12 +5,13 @@ Progress Tracker for completing **DSA with Java** playlist (69 videos).
 ---
 
 ## 📊 Progress
+> Click on link
+> Tick the checkbox after completing each video 👇
 
+https://azam-aa.github.io/DSA/
 ---
 
 ## ✅ Playlist Checklist (1–69)
-
-> Tick the checkbox after completing each video 👇
 
 - [ ] 1. Best Data Structures & Algorithms (DSA) Course – Clear Any FAANG Interview
 - [ ] 2. Java vs C++ for Data Structures & Algorithms
